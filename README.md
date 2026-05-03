@@ -53,25 +53,27 @@ High-value vs. low-value customer identification
 
 
 Project Structure
+
+```
 sql-data-analytics-project/
 │
 ├── scripts/
-│   ├── 01_db_exploration.sql           -- Table summaries, row counts, value distributions
-│   ├── 02_db_dimension_explorations.sql -- Dimension table inspection and profiling
-│   ├── 03_db_date_range_exploration.sql -- Date range validation and gap detection
-│   ├── 04_db_measure_exploration.sql   -- Measure and metric baseline checks
-│   ├── 05_db_magnitude_analysis.sql    -- Volume and scale analysis
-│   ├── 06_db_ranking_analysis.sql      -- Rankings using window functions
-│   ├── 07_change_over_time_analysis.sql -- Monthly and yearly trend analysis
-│   ├── 08_db_cumulative_analysis.sql   -- Running totals and moving averages
-│   ├── 09_db_performance_analysis.sql  -- KPI and business performance metrics
-│   ├── 10_db_part_to_whole_analysis.sql -- Contribution and percentage breakdowns
-│   ├── 11_db_data_segmentation_analysis.sql -- Customer and product segmentation
-│   ├── 12_db_customer_report.sql       -- Full customer analytics report
-│   └── 13_db_product_report.sql        -- Full product analytics report
+│   ├── 01_db_exploration.sql 
+│   ├── 02_db_dimension_explorations.sql 
+│   ├── 03_db_date_range_exploration.sql 
+│   ├── 04_db_measure_exploration.sql
+│   ├── 05_db_magnitude_analysis.sql         
+│   ├── 06_db_ranking_analysis.sql 
+│   ├── 07_change_over_time_analysis.sql
+│   ├── 08_db_cumulative_analysis.sql 
+│   ├── 09_db_performance_analysis.sql 
+│   ├── 10_db_part_to_whole_analysis.sql
+│   ├── 11_db_data_segmentation_analysis.sql
+│   ├── 12_db_customer_report.sql 
+│   └── 13_db_product_report.sql
 │
 └── README.md
-
+```
 Technologies Used
 ToolPurposeSQL Server ExpressDatabase engineT-SQLQuery languageSSMSQuery development and testingGit & GitHubVersion control
 
@@ -91,6 +93,6 @@ Subqueries and derived tables
 ISNULL() and COALESCE() for NULL handling
 
 uthor
-Muhammad Nur Iman 🇲🇾
+Muhammad Nur Iman
 Aspiring Data Engineer · Malaysia
 📧 ieymnn17@gmail.com
