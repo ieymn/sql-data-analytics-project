@@ -57,6 +57,11 @@ Project Structure
 ```
 sql-data-analytics-project/
 │
+├── datasets
+|   ├── gold.dim_customers.csv
+|   ├── gold.dim_products.csv
+|   ├── gold.fact_sales.csv
+|
 ├── scripts/
 │   ├── 01_db_exploration.sql 
 │   ├── 02_db_dimension_explorations.sql 
@@ -72,27 +77,32 @@ sql-data-analytics-project/
 │   ├── 12_db_customer_report.sql 
 │   └── 13_db_product_report.sql
 │
+├──LICENSE
+|
 └── README.md
 ```
 Technologies Used
-ToolPurposeSQL Server ExpressDatabase engineT-SQLQuery languageSSMSQuery development and testingGit & GitHubVersion control
+Tool                       Purpose
+SQL Server Express      Database engine
+T-SQL                   Query language
+SSMS                    Query development and testing
+Git & GitHub            Version control
 
 Data Source
 All scripts run against the Gold layer of the SQL Data Warehouse project, which contains clean, modelled fact and dimension tables:
-TableDescriptionfact_salesCore transactional sales datadim_customerCustomer profiles and attributesdim_productProduct details and categoriesdim_dateDate dimension for time-based analysisdim_locationGeographic breakdown
 
 Key SQL Techniques Demonstrated
 
-JOIN (INNER, LEFT, RIGHT) across fact and dimension tables
-GROUP BY and HAVING for aggregated filtering
-Window functions: ROW_NUMBER(), RANK(), SUM() OVER(), AVG() OVER()
-Common Table Expressions (CTEs)
-Date functions: YEAR(), MONTH(), DATEDIFF(), DATEADD()
-CASE WHEN for conditional segmentation
-Subqueries and derived tables
-ISNULL() and COALESCE() for NULL handling
+- JOIN (INNER, LEFT, RIGHT) across fact and dimension tables 
+- GROUP BY and HAVING for aggregated filtering 
+- Window functions: ROW_NUMBER(), RANK(), SUM() OVER(), AVG() OVER() 
+- Common Table Expressions (CTEs) 
+- Date functions: YEAR(), MONTH(), DATEDIFF(), DATEADD() 
+- CASE WHEN for conditional segmentation 
+- Subqueries and derived tables 
+- ISNULL() and COALESCE() for NULL handling 
 
-uthor
+Author
 Muhammad Nur Iman
 Aspiring Data Engineer · Malaysia
 📧 ieymnn17@gmail.com
